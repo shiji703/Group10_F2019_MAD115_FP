@@ -27,7 +27,8 @@ class LoginViewController: UIViewController {
                     {
                         if self.swRemember.isOn{
                             
-                            wd")
+                            UserDefaults.standard.set(txtUserName.text, forKey: "user")
+                            UserDefaults.standard.set(txtPassword.text, forKey: "pswd")
                         }else{
                              
                             UserDefaults.standard.removeObject(forKey: "user")
@@ -40,7 +41,7 @@ class LoginViewController: UIViewController {
                          }
                              else{
             
-                                    let alert = UIAlertController(title: "Invalid Username", message: "Please enter a valid Username", preferredStyle: .alert)
+                                    let alert = UIAlertController(title: "Invalid Username or Password", message: "Please enter a valid Username or Password", preferredStyle: .alert)
                                         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                                        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
                                        alert.addAction(UIAlertAction(title: "Ignore", style: .destructive, handler: nil))
