@@ -27,8 +27,7 @@ class LoginViewController: UIViewController {
                     {
                         if self.swRemember.isOn{
                             
-                            UserDefaults.standard.set(txtUserName.text, forKey: "user")
-                            UserDefaults.standard.set(txtPassword.text, forKey: "pswd")
+                            wd")
                         }else{
                              
                             UserDefaults.standard.removeObject(forKey: "user")
