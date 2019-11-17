@@ -3,7 +3,7 @@
 //  Group3_F2019_MAD115_FP
 //
 //  Created by Akhil Joseph on 2019-11-16.
-//  Copyright © 2019 MacStudent. All rights reserved.
+//  Copyright © 2019 Bushair. All rights reserved.
 //
 
 import UIKit
