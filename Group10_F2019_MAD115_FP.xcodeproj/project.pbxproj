@@ -16,6 +16,7 @@
 		118BA4FB2381049700083B87 /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = 118BA4FA2381049700083B87 /* Users.plist */; };
 		118BA4FD2381059500083B87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA4FC2381059500083B87 /* LoginViewController.swift */; };
 		118BA50E238105C200083B87 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA507238105C100083B87 /* LogoutViewController.swift */; };
+		118BA535238113D800083B87 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA534238113D800083B87 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		118BA4FA2381049700083B87 /* Users.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Users.plist; sourceTree = "<group>"; };
 		118BA4FC2381059500083B87 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		118BA507238105C100083B87 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		118BA534238113D800083B87 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				118BA4D1238100FC00083B87 /* Assets.xcassets */,
 				118BA4D3238100FC00083B87 /* LaunchScreen.storyboard */,
 				118BA4D6238100FC00083B87 /* Info.plist */,
+				118BA534238113D800083B87 /* HomeViewController.swift */,
 			);
 			path = Group10_F2019_MAD115_FP;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				118BA4FD2381059500083B87 /* LoginViewController.swift in Sources */,
 				118BA50E238105C200083B87 /* LogoutViewController.swift in Sources */,
 				118BA4C9238100F900083B87 /* AppDelegate.swift in Sources */,
+				118BA535238113D800083B87 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

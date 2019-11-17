@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func btnLogin(_ sender: UIButton) {
-        if readeLoginPlist()
+        if LoginPlist()
                     {
                         if self.swRemember.isOn{
                             
@@ -36,7 +36,7 @@ class LoginViewController: UIViewController {
                             }
 
                                  let stbHome=UIStoryboard(name: "Main", bundle: nil)
-                                 let HomeVC = stbHome.instantiateViewController(withIdentifier: "HomeVC") as! HomeTableViewController
+                                 let HomeVC = stbHome.instantiateViewController(withIdentifier: "HomeVC") as! HomeViewController
                                         navigationController?.pushViewController(HomeVC, animated: true)
                          }
                              else{
@@ -50,7 +50,7 @@ class LoginViewController: UIViewController {
                                                   }
                                           }
                                           
-                                          func readeLoginPlist() -> Bool{
+                                          func LoginPlist() -> Bool{
                                           if let bundlePath = Bundle.main.path(forResource: "Users", ofType: "plist") {
                                               let dictionary = NSMutableDictionary(contentsOfFile: bundlePath)
 
