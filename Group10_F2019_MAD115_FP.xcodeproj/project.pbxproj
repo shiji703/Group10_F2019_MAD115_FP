@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		118BA4C9238100F900083B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA4C8238100F900083B87 /* AppDelegate.swift */; };
-		118BA4CB238100F900083B87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA4CA238100F900083B87 /* SceneDelegate.swift */; };
-		118BA4CD238100F900083B87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA4CC238100F900083B87 /* ViewController.swift */; };
 		118BA4D0238100F900083B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118BA4CE238100F900083B87 /* Main.storyboard */; };
 		118BA4D2238100FC00083B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118BA4D1238100FC00083B87 /* Assets.xcassets */; };
 		118BA4D5238100FC00083B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118BA4D3238100FC00083B87 /* LaunchScreen.storyboard */; };
 		118BA4E0238100FC00083B87 /* Group10_F2019_MAD115_FPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA4DF238100FC00083B87 /* Group10_F2019_MAD115_FPTests.swift */; };
 		118BA4EB238100FC00083B87 /* Group10_F2019_MAD115_FPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA4EA238100FC00083B87 /* Group10_F2019_MAD115_FPUITests.swift */; };
+		118BA4FB2381049700083B87 /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = 118BA4FA2381049700083B87 /* Users.plist */; };
+		118BA4FD2381059500083B87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA4FC2381059500083B87 /* LoginViewController.swift */; };
+		118BA50E238105C200083B87 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BA507238105C100083B87 /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		118BA4C5238100F900083B87 /* Group10_F2019_MAD115_FP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Group10_F2019_MAD115_FP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		118BA4C8238100F900083B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		118BA4CA238100F900083B87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		118BA4CC238100F900083B87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		118BA4CF238100F900083B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		118BA4D1238100FC00083B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		118BA4D4238100FC00083B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		118BA4E6238100FC00083B87 /* Group10_F2019_MAD115_FPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Group10_F2019_MAD115_FPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		118BA4EA238100FC00083B87 /* Group10_F2019_MAD115_FPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group10_F2019_MAD115_FPUITests.swift; sourceTree = "<group>"; };
 		118BA4EC238100FC00083B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118BA4FA2381049700083B87 /* Users.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Users.plist; sourceTree = "<group>"; };
+		118BA4FC2381059500083B87 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		118BA507238105C100083B87 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				118BA4C8238100F900083B87 /* AppDelegate.swift */,
-				118BA4CA238100F900083B87 /* SceneDelegate.swift */,
-				118BA4CC238100F900083B87 /* ViewController.swift */,
+				118BA4FA2381049700083B87 /* Users.plist */,
+				118BA4FC2381059500083B87 /* LoginViewController.swift */,
+				118BA507238105C100083B87 /* LogoutViewController.swift */,
 				118BA4CE238100F900083B87 /* Main.storyboard */,
 				118BA4D1238100FC00083B87 /* Assets.xcassets */,
 				118BA4D3238100FC00083B87 /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				118BA4D5238100FC00083B87 /* LaunchScreen.storyboard in Resources */,
 				118BA4D2238100FC00083B87 /* Assets.xcassets in Resources */,
+				118BA4FB2381049700083B87 /* Users.plist in Resources */,
 				118BA4D0238100F900083B87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				118BA4CD238100F900083B87 /* ViewController.swift in Sources */,
+				118BA4FD2381059500083B87 /* LoginViewController.swift in Sources */,
+				118BA50E238105C200083B87 /* LogoutViewController.swift in Sources */,
 				118BA4C9238100F900083B87 /* AppDelegate.swift in Sources */,
-				118BA4CB238100F900083B87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
