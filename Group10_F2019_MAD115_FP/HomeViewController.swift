@@ -57,10 +57,7 @@ class HomeTableViewController: UITableViewController {
                                      let ContactVC = stbHome.instantiateViewController(withIdentifier: "ContactVC") as! ContactUsViewController
                                             navigationController?.pushViewController(ContactVC, animated: true)
                        case 4:
-                                                       
-                                                        let stbHome=UIStoryboard(name: "Main", bundle: nil)
-                                                        let AboutVC = stbHome.instantiateViewController(withIdentifier: "AboutVC") as! AboutUsViewController
-                                                               navigationController?.pushViewController(AboutVC, animated: true)
+                                   navigationController?.pushViewController(AboutVC, animated: true)
                     
 
                     case 5:
